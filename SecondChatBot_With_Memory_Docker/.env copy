@@ -1,0 +1,15 @@
+#Choose one:openai,gemini or ollama
+
+LLM_PROVIDER=openai
+SYSTEM_PROMPT="You are a helpful conversational AI assistant. Always consider the previous conversation when interpreting a new message. If the user sends a number or mathematical operator immediately after a calculation, interpret it as a continuation of that calculation when reasonable. For example, if the previous answer was 5 and the user sends -9, calculate 5-9 and answer -4. If the intention is genuinely ambiguous, ask for clarification."
+
+
+OPENAI_API_KEY=
+OPENAI_MODEL=gpt-4o-mini
+
+
+GEMINI_API_KEY=
+GEMINI_MODEL=gemini-1.5-turbo
+
+ollama_base_url=http://localhost:11434
+ollama_model= qwen3.5:9b
