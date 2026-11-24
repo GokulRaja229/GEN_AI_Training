@@ -1,15 +1,29 @@
-# Ignore everything
+# Ignore everything by default
 *
 
-# Allow Git configuration
+# Allow Git configuration and documentation
 !.gitignore
+!README.md
+!push-genai.ps1
 
 # Allow only the chatbot project
 !SecondChatBot_With_Memory_Docker/
 !SecondChatBot_With_Memory_Docker/**
+!ThirdChatbot_ollama_aws
+!ThirdChatbot_ollama_aws/**
 
-# Ignore secrets and unnecessary files
+# Secrets
 **/.env
+**/.env.*
+**/secrets/
+**/credentials/
+
+# Python generated files
 **/__pycache__/
+**/*.pyc
 **/venv/
 **/.venv/
+
+# IDE files
+**/.vscode/
+**/.idea/
