@@ -1,0 +1,8 @@
+# keep the real api key out of the image
+.env
+
+# version comtrol
+.git
+
+# Python cache and virtual enviornments
+__pycache__
