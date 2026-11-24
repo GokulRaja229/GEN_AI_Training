@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# Allow Git configuration
+!.gitignore
+
+# Allow only the chatbot project
+!SecondChatBot_With_Memory_Docker/
+!SecondChatBot_With_Memory_Docker/**
+
+# Ignore secrets and unnecessary files
+**/.env
+**/__pycache__/
+**/venv/
+**/.venv/
